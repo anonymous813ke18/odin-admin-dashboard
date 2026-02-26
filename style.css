@@ -101,10 +101,11 @@ p {
     border: none;
     border-radius: 50px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .btn-container > button:hover {
-    background-color: #2b91c9;
+    background-color: #449ece;
 }
 
 .btn-container > button:active {
