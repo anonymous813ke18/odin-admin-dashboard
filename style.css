@@ -88,6 +88,29 @@ p {
     color: black;
 }
 
+.btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.btn-container > button {
+    background-color: #1992D4;
+    color: white;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+.btn-container > button:hover {
+    background-color: #2b91c9;
+}
+
+.btn-container > button:active {
+    background-color: #098bd1;
+}
+
 /* Sidebar Styling */
 
 .sidebar {
