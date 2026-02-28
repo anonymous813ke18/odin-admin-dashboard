@@ -112,6 +112,15 @@ p {
     background-color: #098bd1;
 }
 
+.header svg:hover {
+    fill: rgb(114, 114, 114);
+    cursor: pointer;
+}
+
+.header svg:active {
+    fill: #000;
+}
+
 /* Sidebar Styling */
 
 .sidebar {
@@ -235,10 +244,31 @@ hr {
     padding: 10px;
     display: flex;
     align-items: center;
+    border-radius: 20px;
 }
 
 .card-t > .user > img {
     float: left;
     height: 50px;
     border-radius: 50%;
+}
+
+.main-content svg:hover {
+    fill: rgb(114, 114, 114);
+    cursor: pointer;
+}
+
+.main-content svg:active {
+    fill: #000;
+}
+
+.user:hover {
+    background-color: rgba(211, 211, 211, 0.350);
+    cursor: pointer;
+    transition-duration: 10ms;
+}
+
+.user:active {
+    background-color: rgba(211, 211, 211, 0.500);
+    transition-duration: 10ms;
 }
